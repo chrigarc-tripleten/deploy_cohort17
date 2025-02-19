@@ -15,7 +15,7 @@ app.use(
 
 app.get('/hello', (req, res) => {
     res.send({
-        message: 'Hello world'
+        message: 'Hello world ' + Math.random()
     })
 });
 
